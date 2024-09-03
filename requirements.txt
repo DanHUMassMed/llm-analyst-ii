@@ -1,0 +1,12 @@
+fastapi
+pydantic
+pydantic[email]
+uvicorn
+starlette
+jinja2
+SQLAlchemy
+databases
+bcrypt==3.2.2
+passlib
+python-multipart
+#dotenv==1.0.1

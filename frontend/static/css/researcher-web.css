@@ -1,0 +1,20 @@
+.has-success label {
+    color: #31CE36 !important; }
+.has-success .form-control {
+    border-color: #31CE36 !important;
+    color: #31CE36 !important; }
+.has-success .input-group-text {
+    border-color: #31CE36 !important;
+    background: #31CE36 !important;
+    color: #ffffff !important; }
+
+.has-error label {
+    color: #F25961 !important; }
+.has-error .form-control {
+    border-color: #F25961 !important;
+    color: #F25961 !important; }
+.has-error .input-group-text {
+    border-color: #F25961 !important;
+    background: #F25961 !important;
+    color: #ffffff !important; }
+  

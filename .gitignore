@@ -1,0 +1,9 @@
+redis-stable/
+instance/
+__pycache__
+
+.env
+.DS_Store
+*.log
+*.pid
+users.db
