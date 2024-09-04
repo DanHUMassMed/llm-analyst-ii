@@ -10,7 +10,10 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "cwd": "/home/dan/Code/LLM_Code/researcher-web/app"
+            "cwd": "/home/dan/Code/LLM_Code/researcher-web",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
         }
     ]
 }
