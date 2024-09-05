@@ -138,6 +138,8 @@ async def post_login(
             "sign_in.html", {"request": request, "form_fields":form_fields, "errors": errors}
         )
         
+    return templates.TemplateResponse("index.html", {"request": request})
+        
 @app.get("/reset-password-request", response_class=HTMLResponse)
 async def get_reset_password_request(request: Request):
     return templates.TemplateResponse("reset_password_request.html", {"request": request, "form_fields":{}})

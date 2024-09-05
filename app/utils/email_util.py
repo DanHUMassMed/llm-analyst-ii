@@ -48,7 +48,7 @@ def email_verification(receiver, verification_token, first_name):
         <body>
             <h1>Verify Your Email</h1>
             <p>Dear { first_name },</p>
-            <p>Thank you for registering with us. To activate your account, please click the verification button below.</p>
+            <p>Thank you for registering! Please click the verification button below to activate your account.</p>
             <div>
                 <a href="{REDIRECT_URL}/verify/{verification_token}" target="_blank">
                 <button style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
