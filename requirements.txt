@@ -9,4 +9,5 @@ databases
 bcrypt==3.2.2
 passlib
 python-multipart
-#dotenv==1.0.1
+python-dotenv
+gunicorn
